@@ -4,6 +4,8 @@ import "fmt"
 
 func main() {
 	cards := newDeck()
+	cards.shuffle()
+	cards.print()
 	hand, remainingCards := deal(5, cards)
 	fmt.Println("\n Drawn Hand : ")
 	hand.print()
