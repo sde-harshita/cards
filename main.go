@@ -8,4 +8,7 @@ func main() {
 	fmt.Println("\n Drawn Hand : ")
 	hand.print()
 	remainingCards.saveToFile("Remaining Cards")
+	fmt.Println("\n Reading remaining cards from file : ")
+	rc := readFromFile("Remaining Cards")
+	rc.print()
 }
