@@ -20,7 +20,7 @@ deck/
 ├── deck.go                # Core logic
 ├── deck_test.go           # Unit tests
 ├── main.go                # Example usage
-├── _deckTesting.txt       # Example output file for testing
+├── _decktesting.txt       # Example output file for testing
 ```
 ---
 
