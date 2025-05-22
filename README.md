@@ -17,10 +17,10 @@ Use this project as a reference to understand:
 
 ```bash
 deck/
-├── deck.go            # Core logic
-├── deck_test.go       # Unit tests
-├── main.go            # Example usage
-├── cards.txt          # Example output file
+├── deck.go                # Core logic
+├── deck_test.go           # Unit tests
+├── main.go                # Example usage
+├── _deckTesting.txt       # Example output file for testing
 ```
 ---
 
