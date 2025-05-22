@@ -13,6 +13,16 @@ Use this project as a reference to understand:
 
 ---
 
+## 📂 File Structure
+
+deck/
+├── deck.go             # Core logic
+├── deck_test.go        # Unit tests
+├── main.go             # Example usage
+├── Remaining Cards.txt # Example output file
+
+---
+
 ## 📘 Features & Functions
 
 ### `deal`
@@ -41,9 +51,5 @@ Run the tests using:
 ```bash
 go test
 
-deck/
-├── deck.go             # Core logic
-├── deck_test.go        # Unit tests
-├── main.go             # Example usage
-├── Remaining Cards.txt # Example output file
+
 
